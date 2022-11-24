@@ -14,6 +14,12 @@ build_property.IncludeAllContentForSelfExtract =
 build_property.RootNamespace = PUVOtoDo
 build_property.ProjectDir = C:\Users\OKtolka\Desktop\pets\PUVOtoDo\PUVOtoDo\
 
+[C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
 [C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.App.xaml
