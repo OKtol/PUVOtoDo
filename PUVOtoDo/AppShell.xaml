@@ -3,17 +3,17 @@
     x:Class="PUVOtoDo.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:PUVOtoDo"
+    xmlns:views="clr-namespace:PUVOtoDo.Views"
     Shell.FlyoutBehavior="Disabled">
 
     <TabBar>
         <ShellContent
             Title="Notes"
-            ContentTemplate="{DataTemplate local:NotePage}"
+            ContentTemplate="{DataTemplate views:AllNotesPage}"
             Icon="icon_notes"/>
         <ShellContent
             Title="About"
-            ContentTemplate="{DataTemplate local:AboutPage}"
+            ContentTemplate="{DataTemplate views:AboutPage}"
             Icon="icon_about"/>
     </TabBar>
 </Shell>

@@ -10,12 +10,6 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PUVOtoDo
 build_property.ProjectDir = C:\Users\OKtolka\Desktop\pets\PUVOtoDo\PUVOtoDo\
 
-[C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/AboutPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.AboutPage.xaml
-build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
-build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
-
 [C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.App.xaml
@@ -28,18 +22,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
-[C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/NotePage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.NotePage.xaml
-build_metadata.AdditionalFiles.TargetPath = NotePage.xaml
-build_metadata.AdditionalFiles.RelativePath = NotePage.xaml
-
 [C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.Resources.Styles.Colors.xaml
@@ -51,3 +33,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/Views/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.Views.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AboutPage.xaml
+
+[C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/Views/AllNotesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.Views.AllNotesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AllNotesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AllNotesPage.xaml
+
+[C:/Users/OKtolka/Desktop/pets/PUVOtoDo/PUVOtoDo/Views/NotePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PUVOtoDo.Views.NotePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NotePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NotePage.xaml
