@@ -9,11 +9,11 @@
     <TabBar>
         <ShellContent
             Title="Notes"
-            ContentTemplate="{DataTemplate local:MainPage}"
+            ContentTemplate="{DataTemplate local:NotePage}"
             Icon="icon_notes"/>
         <ShellContent
             Title="About"
-            ContentTemplate="{DataTemplate local:AboutPage}}"
+            ContentTemplate="{DataTemplate local:AboutPage}"
             Icon="icon_about"/>
     </TabBar>
 </Shell>
