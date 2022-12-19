@@ -16,11 +16,15 @@ namespace PUVOtoDo.Models
             string appDataPath = FileSystem.AppDataDirectory;
             IEnumerable<Note> notes = Directory
                                         .EnumerateFiles(appDataPath, "*.notes.txt")
-                                        .Select(filename => new Note()
+                                        .Select(filename =>
                                         {
-                                            Filename = filename,
-                                            Text = File.ReadAllText(filename),
-                                            Date = File.GetCreationTime(filename)
+                                            //Encryptor.DecryptFile(filename);
+                                            return new Note()
+                                            {
+                                                Filename = filename,
+                                                Text = File.ReadAllText(filename),
+                                                Date = File.GetCreationTime(filename)
+                                            };
                                         })
                                         .OrderBy(note => note.Date);
 
