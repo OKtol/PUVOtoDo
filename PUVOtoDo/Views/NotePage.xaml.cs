@@ -1,3 +1,4 @@
+using PUVOtoDo.Models;
 using static Android.Content.ClipData;
 
 namespace PUVOtoDo.Views;
@@ -27,6 +28,7 @@ public partial class NotePage : ContentPage
 
         if (File.Exists(fileName))
         {
+            //Encryptor.DecryptFile(fileName);
             noteModel.Date = File.GetCreationTime(fileName);
             noteModel.Text = File.ReadAllText(fileName);
         }
@@ -37,8 +39,10 @@ public partial class NotePage : ContentPage
     private async void SaveButton_Clicked(object sender, EventArgs e)
     {
         if (BindingContext is Models.Note note)
+        {
             File.WriteAllText(note.Filename, TextEditor.Text);
-
+            //Encryptor.EncryptFile(note.Filename);
+        }
         await Shell.Current.GoToAsync("..");
     }
 
